@@ -1,5 +1,5 @@
 # dotfiles
-## Instalation:
+## Dependences:
 ```
 sudo pacman -S nemo python-pip volumeicon picom rofi scrot xclip qtile
 yay -S nerd-fonts-ubuntu-mono
