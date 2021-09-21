@@ -29,11 +29,11 @@ source zsh-snap/install.zsh
 ```zsh```
 
 ##### Only run if you don't use my zsh config files:
-Autocomplete -> 
+Autocomplete:
 ```
 echo znap source marlonrichert/zsh-autocomplete #uncomment for autocomplete > ${ZDOTDIR:-$HOME}/.zshrc
 ```
-Syntax hightlighting -> 
+Syntax hightlighting:
 ```
 echo "source ${(q-)PWD}/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh" >> ${ZDOTDIR:-$HOME}/.zshrc
 ```
