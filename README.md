@@ -6,8 +6,11 @@ yay -S nerd-fonts-ubuntu-mono visual-studio-code-bin
 pip install psutil
 ```
 
-### Rofi Theme:
-```sudo mv rofi-themes/User\ Themes/onedark.rasi /usr/share/rofi/themes/onedark.rasi && sudo rm -r rofi-themes```
+### Rofi Theme/pluggins:
+```
+git clone https://github.com/davatorium/rofi-themes.git && sudo mv /rofi-themes/User\ Themes/onedark.rasi /usr/share/rofi/themes/onedark.rasi && sudo rm -r /rofi-themes
+sudo pacman -S rofi-emoji
+```
 
 ### Zsh:
 ```
