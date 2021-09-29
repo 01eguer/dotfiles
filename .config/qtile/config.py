@@ -96,6 +96,11 @@ keys = [
     # START ROFI LAUNCHER (run)
     Key([mod, "shift"], "r", lazy.spawn('rofi -show run'),
          desc="Spawn rofi launcher (run)"),
+
+    # START ROFI EMOJIS SELECTOR
+    Key([mod], ".", lazy.spawn('rofi -show emoji -modi emoji'),
+         desc="Spawn rofi emoji"),
+         
     
     # START ROFI WINDOW SELECTOR
     Key([mod, "shift"], "Tab", lazy.spawn('rofi -show window'),
