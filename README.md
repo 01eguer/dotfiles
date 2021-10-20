@@ -40,6 +40,11 @@ source zsh-snap/install.zsh
 ##### Syntax hightlighting:
 ```git clone https://github.com/zsh-users/zsh-syntax-highlighting.git```
 
+#### Change shell (bash -> zsh)
+```
+chsh -l # to view all shells
+chsh -s /usr/bin/zsh
+```
 #### Manual config:
 ```zsh```
 
