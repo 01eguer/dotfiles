@@ -9,8 +9,10 @@ pip install psutil
 ## Download:
 ```
 cd
-git clone https://github.com/01eguer/dotfiles
-cp -r .config .p10k.zsh .zshrc ../
+git clone https://github.com/01eguer/dotfiles && cd dotfiles
+cp -r .config ../
+cp .p10k.zsh ../
+cp .zshrc ../ 
 ```
 
 ### Rofi Theme/pluggins:
