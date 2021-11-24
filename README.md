@@ -2,7 +2,7 @@
 ## Dependences:
 ```
 sudo pacman -S nemo python-pip volumeicon picom rofi scrot xclip qtile zsh
-yay -S nerd-fonts-ubuntu-mono visual-studio-code-bin
+yay -S nerd-fonts-ubuntu-mono visual-studio-code-bin betterlockscreen
 pip install psutil
 ```
 
