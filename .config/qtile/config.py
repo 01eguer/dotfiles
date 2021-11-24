@@ -122,7 +122,16 @@ keys = [
     Key([mod, "shift"], "s", lazy.spawn("scrot -s -e 'xclip -selection clipboard -t image/png -i $f && rm $f'"),
         desc="Screenshot witch scrot to the clipboard with xclip"),
 
-    
+    # LOCK SCREEN
+    Key([mod, "control"], "l", lazy.spawn("betterlockscreen -l")),
+
+
+
+
+    # MAXIMIZE WINDOW 75%
+    Key([mod], "m", lazy.layout.maximize()),
+
+
 ]
 
 
@@ -140,19 +149,19 @@ for i, group in enumerate(groups):
         Key([mod, "shift"], actual_key, lazy.window.togroup(group.name))
     ])
 
-m = 7
+m = 8
 b = 1
 layouts = [
     layout.MonadTall(border_focus='#0000ff', border_width=b, margin=m),
     layout.MonadWide(border_focus='#0000ff', border_width=b, margin=m),
     layout.Max(border_focus='#0000ff', border_width=b, margin=m),
     
-    # layout.Columns(border_focus_stack='#d75f5f'),
-    # layout.Stack(num_stacks=2),
+    # layout.Columns(border_focus_stack='#0000ff', border_width=b, margin=m),
+    # layout.Stack(num_stacks=4),
     # layout.Bsp(),
     # layout.Matrix(),
-    # layout.RatioTile(),
-    # layout.Tile(),
+    layout.RatioTile(border_focus='#0000ff', border_width=b, margin=m),
+    # layout.Tile(border_focus='#0000ff', border_width=b, margin=m),
     # layout.TreeTab(),
     # layout.VerticalTile(),
     # layout.Zoomy(),
