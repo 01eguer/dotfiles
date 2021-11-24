@@ -23,6 +23,11 @@ git clone https://github.com/davatorium/rofi-themes.git && sudo mv rofi-themes/U
 sudo pacman -S rofi-emoji
 sudo bash emojis-font-installer.sh
 ```
+### betterlockscreen:
+Lock Screen wallapaper
+```
+betterlockscreen -u <lockscreen wallapaper path>
+```
 
 ### Zsh:
 ```
