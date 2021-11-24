@@ -126,10 +126,11 @@ keys = [
     Key([mod, "control"], "l", lazy.spawn("betterlockscreen -l")),
 
 
-
-
-    # MAXIMIZE WINDOW 75%
+    # MAXIMIZE WINDOW
     Key([mod], "m", lazy.layout.maximize()),
+
+    # MAXIMIZE WINDOW
+    Key([mod], "m", lazy.layout.normalize()),
 
 
 ]
