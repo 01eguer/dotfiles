@@ -27,7 +27,7 @@ source ~/powerlevel10k/powerlevel10k.zsh-theme
 # Aliases
 alias ls='ls --color=auto'
 alias la='ls -al'
-alias cat='bat --style=plain'
+alias cat='bat --style=plain --paging never'
 
 
 function mkt(){
